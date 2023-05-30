@@ -5,7 +5,7 @@ FROM php:latest
 WORKDIR /var/www/html
 
 # Copy the PHP code to the container
-COPY your-php-code.php /var/www/html/
+COPY info.php /var/www/html/
 
 # Install the mysqli extension
 RUN docker-php-ext-install mysqli
